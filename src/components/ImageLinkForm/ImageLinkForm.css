@@ -1,0 +1,38 @@
+.slogan{	
+font-size:1.3rem;
+color: #fff;
+font-weight: bolder;
+}
+.form{
+  padding:1.6rem;
+  border-radius:.5rem;
+  width: 70%;
+  box-shadow:4px 4px 8px 0px rgba( 0, 0, 0, 0.2 );
+  background-color: #6abdc2;
+}
+
+input, button {
+  display:inline-block;
+  font-size:1rem;
+  padding: 0.6rem;
+  margin: 0;
+  border:0;
+}
+input{
+width:70%;
+margin-right:auto;
+margin-left:auto;
+}
+
+button{
+width:30%;
+text-decoration:none;
+backface-visibility:hidden;
+transition:transform 0.25s ease-out;
+background-color: #02adb5;
+color: #fff;
+}
+
+button:hover, button:active{
+  transform:scale(1.05);
+}

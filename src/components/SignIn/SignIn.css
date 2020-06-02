@@ -1,0 +1,127 @@
+main {
+  padding: 2rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.form {
+  max-width: 30em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+fieldset{
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+legend{
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.email{
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.name, .pass{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.email> label, .pass > label, .name > label {
+  display: block;
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: .875rem;
+}
+
+.email> input, .pass > input, .name > input {
+  border:1px solid rgb(75, 74, 74);
+  padding: .5rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 100%;
+} 
+
+.submit{
+  display: inline-block;
+  font-weight: bold;
+  padding-left: .1rem;
+  padding-right: .1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  background-color: rgba(255, 255, 255, 0.8); 
+  font-size: .875rem;
+  color: rgb(75, 74, 74);
+}
+.submit:hover{
+  cursor: pointer;
+}
+
+.grow {
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform .25s ease-out;
+}
+
+.grow:hover, .grow:focus {
+    transform: scale(1.05);
+}
+
+.grow:active {
+    transform: scale(.9);
+}
+
+.email> input::-moz-focus-inner, .pass > input::-moz-focus-inner, .submit::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+.other{
+  line-height: 1.5;
+  margin-top: 1rem;
+}
+
+.link {
+  font-size: .875rem;
+  text-decoration: none;
+  transition: color .15s ease-in;
+  opacity: 1;
+  transition: opacity .15s ease-in;
+  color: rgb(31, 30, 30);
+  display: block;
+}
+
+.link:link, .link:visited {
+    transition: color .15s ease-in;
+}
+
+.link:hover {
+    transition: color .15s ease-in;
+    opacity: .5;
+    transition: opacity .15s ease-in;
+    cursor: pointer;
+}
+
+.link:active {
+    transition: color .15s ease-in;
+    opacity: .8;
+    transition: opacity .15s ease-out;
+}
+
+.link:focus {
+    transition: color .15s ease-in;
+    outline: 1px dotted currentColor;
+    opacity: .5;
+    transition: opacity .15s ease-in;
+}

@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sign{
+  font-size: 1.2rem;
+  color: #fff;
+  padding: 1rem;
+  text-decoration: underline;
+  opacity: 1;
+  transition: opacity .15s ease-in;
+  transition: color .20s ease-in;
+}
+.sign:hover {
+  cursor: pointer;
+  opacity: 0.6;
+  text-decoration: none;
+}
+.sign:active {
+  color: #034b61;
+}
