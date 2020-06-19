@@ -1,12 +1,15 @@
 import React from 'react';
 import './Rank.css';
 
-const Rank =()=>{
+const Rank = ({ name, entries })=>{
   return(
     <div className='rank'>
-      <p className='info'>{'Zenku, your current rank is...'}</p>
-      <p className='number'>{' #5'}</p>
+      {`${name} , your current entry count is...`}
+      <div className='white f1 '>
+        {entries}
+      </div>
     </div>
+    
   )
 }
 
